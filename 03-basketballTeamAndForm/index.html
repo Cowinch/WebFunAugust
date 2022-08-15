@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Lakers</title>
+</head>
+<body>
+    <h1>Lakers Roster and Try-out</h1>
+    <p>We are currently in <strong>desparate</strong> need for better players. Help! <em>Note: We need shooters the most</em></p>
+    <div>
+        <h3>Current Roster</h3>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Position</th>
+            </tr>
+            <tr>
+                <td>Lebron</td>
+                <td>James</td>
+                <td>38</td>
+                <td>SF</td>
+            </tr>
+            <tr>
+                <td>Anthony</td>
+                <td>Davis</td>
+                <td>28</td>
+                <td>PF</td>
+            </tr>
+            <tr>
+                <td>Kyrie</td>
+                <td>Irving</td>
+                <td>28</td>
+                <td>PG</td>
+            </tr>
+            <tr>
+                <td>Carmelo</td>
+                <td>Anthony</td>
+                <td>39</td>
+                <td>SG</td>
+            </tr>
+            <tr>
+                <td>Dwight</td>
+                <td>Howard</td>
+                <td>35</td>
+                <td>C</td>
+            </tr>
+        </table>
+        <hr><!--creates a horizontal line break-->
+    </div>
+    <div>
+        <h3>Fill out the form below to try out for the Lakers</h3>
+        <form>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter name here..." maxlength="20">
+            </div>
+            <div>
+                <label for="year">Years of Experience</label>
+                <input type="number" name="year" id="year" placeholder="Enter years of experience..." min="0">
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Email here...">
+            </div>
+            <div>
+                <label for="jersey_color">Indicate your jersey color:</label>
+                <input type="color">
+            </div>
+            <div>
+                <label for="position">Position applying for:</label>
+                <select name="" id="position">
+                    <option></option>
+                    <option>Point Guard</option>
+                    <option>Shooting Guard</option>
+                    <option>Small Forward</option>
+                    <option>Power Forward</option>
+                    <option>Center</option>
+                    <option>Multiple positions</option>
+                </select>
+            </div>
+            <div>
+                <p>Please select your jersey size</p>
+                <label for="sm">small</label>
+                <input type="radio" name="jersey_size" id="sm">
+                <label for="m">medium</label>
+                <input type="radio" name="jersey_size" id="m">
+                <label for="lg">large</label>
+                <input type="radio" name="jersey_size" id="lg">
+                <label for="xl">extra-large</label>
+                <input type="radio" name="jersey_size" id="xl">
+            </div>
+            <div>
+                <p>Are you a veteran?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" name="vet" id="yes">
+                <label for="no">No</label>
+                <input type="radio" name="vet" id="no">
+                <label for="na">Prefer not to answer</label>
+                <input type="radio" name="vet" id="na">
+            </div>
+            <div>
+                <p>Select days you can workout with us</p>
+                <label for="">Mondays:</label>
+                <input type="checkbox" name="availability" id="">
+                <label for="">Tuesdays:</label>
+                <input type="checkbox" name="availability" id="">
+                <label for="">Wednesdays:</label>
+                <input type="checkbox" name="availability" id="">
+                <label for="">Thursdays:</label>
+                <input type="checkbox" name="availability" id="">
+            </div>
+            <div>
+                <label for="">Tell us about yourself</label>
+                <br>
+                <textarea name="" id="" cols="40" rows="7"></textarea>
+            </div>
+            <input type="submit" value="Add me to the tryout!">
+        </form>
+    </div>
+</body>
+</html>
