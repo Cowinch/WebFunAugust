@@ -1,23 +1,75 @@
-h1{
-    color:#7c1717;
+h1 {
+    color: #7c1717;
     background-color: black;
-    font-size: 36px;/*font size can be measured in px,in,cm and something called fr */
+    font-size: 36px;
+    /*font size can be measured in px,in,cm and something called fr */
     text-align: center;
-    /* width:max-content; */ /*makes background color not stretch but ruins centering*/
+    /* width:max-content; */
+    /*makes background color not stretch but ruins centering*/
     /* text-align: center; */
 }
+
 /* h1 is the selector
 color is the css property
 block elements are "greedy"
 */
-#slogan{
-    color:red;
+#slogan {
+    color: purple;
     text-align: right;
     font-size: 20px;
-    font-family:cursive;
+    font-family: cursive;
     font-style: italic;
-    text-decoration: underline; /*ie overline*/
+    text-decoration: underline;
+    /*ie overline*/
 }
-#fax{
-    color:aquamarine
+
+#fax {
+    color: aquamarine
 }
+
+li {
+    color: olive;
+    font-weight: bold;
+    /*font weight is for boldness. font style is for italics. this way you can customize the boldness and make something bold and italisized*/
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    font-size:40px;
+}
+
+.is-red {
+    color: red;
+}
+button{
+    background-color: aquamarine;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+#middle-btn{
+    height: 150px;
+}
+.round-btn{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+#last-btn{
+    border-radius: 10px;
+    width: 200px;
+}
+.shadow{
+    box-shadow: 3px 3px 3px black;
+}
+
+/* a . is used to reference classes. a # is used to reference an ID */
+
+/* 
+selectors are p, h1, h3
+
+to select only one element, IDs are used
+
+to select multiple elements and give multiple elements similar style uses class
+ */

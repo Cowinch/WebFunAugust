@@ -1,0 +1,29 @@
+*{
+    margin:5px;
+}
+h1{
+    color:white;
+    background-color: black;
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+h2{
+    color:white;
+    background-color: purple;
+    text-align: center;
+    font-style: oblique;
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+    font-size: 40px;
+}
+#cloud{
+    color:aqua;
+}
+h3{
+    color: rgb(26, 4, 41);
+    background-color: rgb(130, 189, 243);
+    text-align: right;
+    text-decoration: underline;
+    font-size: 28px;
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+}
