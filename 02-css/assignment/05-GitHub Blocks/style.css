@@ -11,7 +11,7 @@ h1{
     color: #484855;
     text-align: center;
     font-size: 60px;
-    padding: 15px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;/*in the future, always apply the bottom right princple*/
     font-weight:bolder;
 }
 p{
