@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    color: white;
+}
+.nav{
+    display: flex;
+    background-color: #333333;
+    vertical-align: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: center;
+}
