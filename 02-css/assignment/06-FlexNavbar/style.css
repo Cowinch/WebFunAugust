@@ -4,14 +4,31 @@
     box-sizing: border-box;
     font-family:'Roboto', sans-serif;
     color: white;
+    text-decoration: none;
+}
+h1{
+    padding-left: 20px;
 }
 .nav{
     display: flex;
     background-color: #333333;
-    vertical-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
 }
 .nav-links{
+    width: 50%;
     display: flex;
     justify-content: flex-end;
-    vertical-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    padding-right: 50px;
+}
+button{
+    background-color: #17A2B8;
+    padding: 2px 7px;
+    box-shadow: 3px 3px 0px black;
+    font-size: 16px;
 }
