@@ -1,0 +1,39 @@
+*{
+    /* margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+}
+body{
+    background-image: linear-gradient(red, yellow);
+    background-size: 100% 100%;
+
+}
+.row{
+    display: flex;
+    gap: 10px;
+    border: 1px dotted red;
+    padding: 10px 0px;
+}
+.col-1{
+    flex:1;
+    border: 1px solid black;
+    padding: 20px;
+    /* margin: 10px; */
+    background-color: lightcyan;
+    /* width: 400px; */
+
+}
+.col-2{
+    flex:2;
+    border: 1px solid black;
+    padding: 20px;
+    /* margin: 10px; */
+    background-color: lightcyan;
+    /* width: 400px; */
+}
+.col-3{
+    flex:3;
+    background-color: lightcyan;
+    border: 1px solid black;
+    padding: 20px;
+}
