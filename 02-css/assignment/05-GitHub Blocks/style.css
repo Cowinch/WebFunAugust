@@ -25,10 +25,10 @@ p{
     margin: 20px;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
 }
 #first{
     background-color: #6CD8FF;
-    justify-content: space-between;
 }
 #second{
     background-color: #D890AA;
@@ -36,12 +36,6 @@ p{
 }
 #third{
     background-color: #FCFCFC;
-    justify-content: space-between;
-}
-.picture{
-    height: 225px;
-    width: 225px;
-    background-color: coral;
 }
 img{
     height: 225px;
