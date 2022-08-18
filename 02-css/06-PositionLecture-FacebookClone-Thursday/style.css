@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #878787, #f1f1f1, #ffffff);
+    /* height: 150vh;vh means view height */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+#container{
+    height:100%;
+    /* border: 3px dotted red; */
+    width: 600px;
+    /* margin: 0 auto;useful for centering the container */
+}
+#cover-photo{
+    height: 500px;
+    /* border: 3px dotted black; */
+    background: url(./img/treeRoots.webp);
+    background-size: 100% 100%;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 20px 15px 0px;
+}
+#cover-photo>button{
+    padding: 3px 5px;
+    font-weight: bolder;
+    border: none;
+}
+#cover-photo>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px double white;
+    background-color: black;
+    position: relative;
+    top:120px;
+    left: 30px;
+}
+#info{
+    /* height: 200px; */
+    border-bottom: 1px solid grey;
+    padding-left: 190px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#info>p{
+    color:darkgray;
+    font-weight: 600;
+}
+#row{
+    /* border: 1px dotted red; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#row-left, #row-right{
+    /* height: 80px; */
+    width: 200px;
+}
+#row-left>img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#friend2{
+    position: relative;
+    right: 10px;
+}
+#friend3{
+    position: relative;
+    right: 20px;
+}
+#friend4{
+    position: relative;
+    right: 30px;
+}
+#story,#edit{
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+#story{
+    background-color: blue;
+    color: white;
+}
+#edit{
+    background-color: lightgray;
+}
+.nav-bar{
+    /* border: 1px dotted red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 5px;
+    margin-bottom: 12px;
+}
+#nav-links{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+#nav-links a{
+    color: gray;
+    text-decoration: none;
+}
+#nav-bar>button{
+    padding: 8px 20px;
+}
+#triangle{
+    font-size: 12px;
+}
+#cookie-box{
+    border: 3px dotted red;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+    width: 600px;
+    margin-bottom: 10px;
+}
