@@ -97,7 +97,7 @@ button {
     justify-content: center;
     align-items: center;
 }
-#education-header{
+#left-header{
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -151,10 +151,19 @@ button {
     height: 60px;
     width: 65px;
 }
+#black-hills{
+    width: 192px;
+    height: 74px;
+    margin-bottom: 20px;
+}
+#scuba{
+    width: 192px;
+    height: 122px;
+}
 
 /* idk where to put stuff in here yet */
 #columns-list>li {
-    font-size: 32px;
+    font-size: 24px;
     border-bottom: 3px solid lightgray;
     margin-bottom: 20px;
     font-weight: bold;
@@ -177,3 +186,8 @@ button {
 #education-body>h4{
     color: grey;
 }
+/* .connections{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} */
