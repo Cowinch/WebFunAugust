@@ -2,13 +2,13 @@ var fruit1="apples";
 var fruit2="oranges";
 
 //temp var swap
-var temp=fruit2;
-fruit2=fruit1;
-fruit1=temp;
+// var temp=fruit2;
+// fruit2=fruit1;
+// fruit1=temp;
 
 
 //destructured swap
-[fruit1, fruit2]=[fruit2,fruit1];
+// console.log([fruit1, fruit2]=[fruit2,fruit1]);
 
 
 //for loop
@@ -62,11 +62,17 @@ let topArtists=["Nipsey Hussle", "Drake", "Ray Charles", "Sam Cooke", "Elivs", "
 
 // && is for and, || is for or
 
-for(i=0;i<100;i++){
-    if(i%7==0){
-        console.log("seventh heaven");
-    }
-    else{
-        console.log(i);
-    }
-}
+// for(i=0;i<100;i++){
+//     if(i%7==0){
+//         console.log("seventh heaven");
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
+var abc=[1,2,3,4,5];
+var def=["a","b","c","d","e"];
+[abc[0],def[0]]=[def[0],abc[0]];
+[abc[4],abc[3]]=[abc[3],abc[4]];
+console.log(abc);
+console.log(def);
