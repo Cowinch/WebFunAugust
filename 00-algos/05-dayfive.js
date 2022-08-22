@@ -70,9 +70,15 @@ let topArtists=["Nipsey Hussle", "Drake", "Ray Charles", "Sam Cooke", "Elivs", "
 //         console.log(i);
 //     }
 // }
-var abc=[1,2,3,4,5];
-var def=["a","b","c","d","e"];
-[abc[0],def[0]]=[def[0],abc[0]];
-[abc[4],abc[3]]=[abc[3],abc[4]];
-console.log(abc);
-console.log(def);
+// var abc=[1,2,3,4,5];
+// var def=["a","b","c","d","e"];
+// [abc[0],def[0]]=[def[0],abc[0]];
+// [abc[4],abc[3]]=[abc[3],abc[4]];
+// console.log(abc);
+// console.log(def);
+function generateRandomNumber(min, max) { //generates a random number between and including two numbers
+    return Math.floor(Math.random() * (max - min +1) + min);
+}
+for(i=0;i<20;i++){
+console.log(generateRandomNumber(0,2));
+}
