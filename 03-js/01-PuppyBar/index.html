@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppygram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div class="search">
+            <input type="text" name="" id="" placeholder="Seach a puppy name...">
+            <button>Search!</button>
+        </div>
+        <Button id="log" onclick="toggle()">Login</Button>
+    </div>
+
+
+    <div class="flex-container">
+
+
+        <div class="col-1">
+
+            <div class="left-body">
+                <div class="left-content">
+                    <img src="./img/puppy.jpeg" alt="#">
+                    <h3>Junior</h3>
+                    <p>
+                        <em>Male</em>
+                        <br>
+                        Breed: <em>Fox</em>
+                    </p>
+                    <button id="junior" onclick="likes(this, 'junior')">10 likes</button>
+                </div>
+                <p>Junior is a very spontaneous, high energy <a href="#">Fox</a> who loves to eat food</p>
+            </div>
+
+            <div class="left-body">
+                <div class="left-content">
+                    <img src="./img/beagle.jpeg" alt="beagle">
+                    <h3>Fluffy</h3>
+                    <p>
+                        <em>Female</em>
+                        <br>
+                        Breed: <em>Beagle</em>
+                    </p>
+                    <button id="fluffy" onclick="likes(this,'fluffy')">17 likes</button>
+                </div>
+                <p>
+                    Fluffy is a quiet, shy and calm <a href="#">Beagle</a> who
+                    <br>
+                    loves to eat and play fetch
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-2">
+            <div id="upload-box" class="right-box">
+                <p>Please upload your pup info to our social media</p>
+                <button id='upload' onclick="deleto('upload')">Upload new pup!</button>
+            </div>
+            <div class="right-box" id="video">
+                <p>Our Popular video of the week!</p>
+                <video src="./img/puppy_video.mp4" onmouseover="play(this)" onmouseout="pause(this)"></video>
+                <em>This is Josie, the playful beach og!</em>
+            </div>
+        </div>
+
+    </div>
+
+    <div id='pop-up'>
+        <img src="./img/caution.jpeg" alt="warning">
+        <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat</p>
+        <button onclick="deleto('pop-up')">I accept</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
