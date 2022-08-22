@@ -30,8 +30,7 @@ function likes(element,id){
     }
     setTimeout(runAlert, 10);
     function runAlert(){
-        alert("This puppy has " + element.innerText)
-        return;
+        alert("This puppy has " + element.innerText);
     }
     
 }
