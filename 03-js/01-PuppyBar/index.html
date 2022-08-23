@@ -14,8 +14,15 @@
     <div id="nav-bar">
         <h1>PuppyGram</h1>
         <div class="search">
-            <input type="text" name="" id="" placeholder="Seach a puppy name...">
-            <button>Search!</button>
+            <input type="text" name="" id="name-search" placeholder='Seach a puppy name...'>
+            <select onchange="chooseLocation(this)" name="" id="">
+                <option value="">Please select a location</option>
+                <option value="DC">DC</option>
+                <option value="NYC">NYC</option>
+                <option value="Miami">Miami</option>
+                <option value="Charleston">Charleston</option>
+            </select>
+            <button onclick="searchPuppy()">Search!</button>
         </div>
         <Button id="log" onclick="toggle()">Login</Button>
     </div>
@@ -78,7 +85,8 @@
 
     <div id='pop-up'>
         <img src="./img/caution.jpeg" alt="warning">
-        <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat</p>
+        <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat
+        </p>
         <button onclick="deleto('pop-up')">I accept</button>
     </div>
 

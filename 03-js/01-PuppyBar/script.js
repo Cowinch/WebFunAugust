@@ -13,7 +13,7 @@ function toggle(){
     }
 }
 
-function deleto(element){
+function deleto(element){//element is the parameter, pop-up-box and upload are arguments
     document.getElementById(element).remove();
 }
 
@@ -33,6 +33,16 @@ function likes(element,id){
         alert("This puppy has " + element.innerText);
     }
     
+}
+
+function searchPuppy(){
+    //console.log(element.id);
+}
+
+function chooseLocation(element){
+    console.log("choose", element.value);
+    // alert("You are searching for a pet in this location: "+element.value);
+    alert(`You are searching for a dog in ${element.value}. Come by Anytime!`) //this are back commas, left of the number 1 on the keyboard
 }
 
 
