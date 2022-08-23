@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: bisque;
+    padding: 0 200px;
+}
+a{
+    color: black;
+}
+
+
+/* Header */
+#header{
+    border: 2px dotted green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+#header-left{
+    border: 1px dotted purple;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#header-left h1{
+    font-family: cursive;
+}
+#header img{
+    height: 80px;
+}
+#header-right{
+    border:3px dotted red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+/*  */
+
+
+/* Search-bar */
+#search-bar{
+    border: 3px dotted blue;
+    border-bottom: 3px solid black;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+}
+#search-bar img{
+    height: 22px;
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+#search-bar input{
+    border-radius: 10px;
+    width: 250px;
+    padding: 5px;
+}
+#input-bar{
+    width: 200px;
+    display: flex;
+    border: 1px dotted black;
+}
+/*  */
+
+#title{
+    text-align: center;
+    padding: 15px;
+}
+
+/* profile bar */
+#profile-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: coral;
+    border-radius: 15px;
+}
+#profile-bar img{
+    height: 100px;
+}
+.player{
+    text-align: center;
+}
+
+#cookie-box{
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    background-color: burlywood;
+    text-align: center;
+}
