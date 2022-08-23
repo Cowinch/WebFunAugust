@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
+    border: none;
 }
 body{
     padding: 0 20px;
@@ -10,11 +11,11 @@ body{
 img{
     height: 75px;
     width: 75px;
+    border: 3px solid black;
+    border-radius: 50%;
 }
-button{
-    background-color: #FFD966;
-    padding: 3px 5px;
-    box-shadow: 2px 2px 0px black;
+a{
+    color:black;
 }
 body{
     display: flex;
@@ -31,6 +32,25 @@ body{
     color: white;
     padding: 6px 10px;
     width: 600px;
+    align-items: center;
+}
+#light-switch{
+    width: 50px;
+    display: flex;
+    gap: 3px;
+    height: 20px;
+    background-color: white;
+    padding: 2px;
+}
+#on{
+    background-color: lightgray;
+    width: 25px;
+}
+#off{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 25px;
 }
 /*  */
 
@@ -47,7 +67,7 @@ body{
 
 
 /* column 1 */
-.avatar-body{
+#avatar-body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,6 +90,12 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.feed-header button{
+        background-color: #FFD966;
+        padding: 3px 5px;
+        box-shadow: 2px 2px 0px black;
+        border: 2px solid black;
 }
 .header-right{
     display: flex;
