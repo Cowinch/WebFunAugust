@@ -51,13 +51,6 @@ function unMute() {
     document.getElementById("video-box").muted = false;
     document.getElementById("audio-button").innerHTML = "<img src='./assets/audio.png' alt='audio-on' id='audio-button' onclick='muteAudio()'>"
 }
-var test="start";
-function swapVideo1() {
-    document.getElementById(test).innerHTML = mainRickRoll;
-    document.getElementById("main-video").innerHTML = videoRickRoll;
-    document.getElementById("video-box").volume = 0.025;
-    unMute();
-}
 
 function swapVideo(numList){
     console.log(currentVideo+" Becomes"+numList)
