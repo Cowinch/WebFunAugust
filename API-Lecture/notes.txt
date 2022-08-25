@@ -1,0 +1,4 @@
+API= Application Programming Interface --> resources from an application that are available for other applications to access
+example: Discord listing what game you are playing, or Facebook (used to) listing what spotify someones listening to
+We will be getting resources from an application called CoinGecko and using those resources (data) from that application
+
